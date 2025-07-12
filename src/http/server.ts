@@ -29,8 +29,8 @@ app.register(loginUser);
 
 app
   .listen({
-    port: 3333,
-    host: "0.0.0.0",
+    port: 8084,
+    host: "10.200.255.108",
   })
   .then(() => {
     /*
@@ -50,6 +50,8 @@ app
       console.log(allUsers)
     }
     main()
-    */
+    
     console.log("HTTP server running!");
+  });*/
+  console.log("Servidor rodando em http://10.200.255.108:8084");
   });

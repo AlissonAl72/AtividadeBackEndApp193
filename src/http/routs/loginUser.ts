@@ -21,7 +21,7 @@ export async function loginUser (app: FastifyInstance) {
         email,
         password
       } = request.body;
-
+      
       const emailLocaleLowerCase = email.toLocaleLowerCase()
 
       // Validação para verificar se já existe um usuário com o Email informado
